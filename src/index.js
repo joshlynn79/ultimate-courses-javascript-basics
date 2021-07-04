@@ -1,5 +1,6 @@
 import '../assets/css/style.css';
-import { mergingArrays } from './arrays-in-depth/09-merging-arrays';
+import { reversingAndSortingArrays } from './arrays-in-depth/10-reversing-and-sorting-arrays';
+// import { mergingArrays } from './arrays-in-depth/09-merging-arrays';
 // import { shallowAndDeepArrayCloning } from './arrays-in-depth/08-shallow-and-deep-array-cloning';
 // import { findingArrayElements } from './arrays-in-depth/07-finding-array-elements';
 // import { arrayLiteralFunctionAndConstructorSyntax } from './arrays-in-depth/01-array-literal-function-and-constructor-syntax';
@@ -31,4 +32,5 @@ app.innerHTML = '<h1>JavaScript Basics</h1>';
 // removingArrayElements();
 // findingArrayElements();
 // shallowAndDeepArrayCloning();
-mergingArrays();
+// mergingArrays();
+reversingAndSortingArrays();
