@@ -1,5 +1,5 @@
 import '../assets/css/style.css';
-import { iterationWithBreakAndContinue } from './arrays-in-depth/13-iteration-with-break-and-continue';
+import { iterationWithForOf } from './arrays-in-depth/14-iteration-with-for-of';
 
 const app = document.getElementById('app');
 app.innerHTML = '<h1>JavaScript Basics</h1>';
@@ -22,4 +22,5 @@ app.innerHTML = '<h1>JavaScript Basics</h1>';
 // reversingAndSortingArrays();
 // correctlyTypeCheckingArrays();
 // imperativeArrayIteration();
-iterationWithBreakAndContinue();
+// iterationWithBreakAndContinue();
+iterationWithForOf();
