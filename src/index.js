@@ -1,5 +1,5 @@
 import '../assets/css/style.css';
-import { imperativeArrayIteration } from './arrays-in-depth/12-imperatice-array-iteration';
+import { iterationWithBreakAndContinue } from './arrays-in-depth/13-iteration-with-break-and-continue';
 
 const app = document.getElementById('app');
 app.innerHTML = '<h1>JavaScript Basics</h1>';
@@ -21,4 +21,5 @@ app.innerHTML = '<h1>JavaScript Basics</h1>';
 // mergingArrays();
 // reversingAndSortingArrays();
 // correctlyTypeCheckingArrays();
-imperativeArrayIteration();
+// imperativeArrayIteration();
+iterationWithBreakAndContinue();
