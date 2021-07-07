@@ -1,5 +1,5 @@
 import '../assets/css/style.css';
-import { exploringArrayForEach } from './arrays-in-depth/15-exploring-array-foreach';
+import { exploringArrayMap } from './arrays-in-depth/16-exploring-array-map';
 
 const app = document.getElementById('app');
 app.innerHTML = '<h1>JavaScript Basics</h1>';
@@ -24,4 +24,5 @@ app.innerHTML = '<h1>JavaScript Basics</h1>';
 // imperativeArrayIteration();
 // iterationWithBreakAndContinue();
 // iterationWithForOf();
-exploringArrayForEach();
+// exploringArrayForEach();
+exploringArrayMap();
