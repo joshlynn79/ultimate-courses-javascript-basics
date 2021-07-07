@@ -80,3 +80,20 @@ body {
   position: relative;
   top: 6px;
 }
+
+* {
+  font-family: Lato;
+}
+#app {
+  margin: 25px;
+  padding: 0;
+}
+#app li {
+  list-style: none;
+  padding: 10px 0;
+  border-top: 1px solid #e5e5e5;
+  text-align: start;
+}
+#app li:last-child {
+  border-bottom: 1px solid #e5e5e5;
+}
