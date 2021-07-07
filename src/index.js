@@ -1,5 +1,5 @@
 import '../assets/css/style.css';
-import { exploringArrayReduce } from './arrays-in-depth/18-exploring-array-reduce';
+import { exploringArraySome } from './arrays-in-depth/19-exploring-array-some';
 
 const app = document.getElementById('app');
 app.innerHTML = '<h1>JavaScript Basics</h1>';
@@ -28,4 +28,5 @@ app.innerHTML = '<h1>JavaScript Basics</h1>';
 // exploringArrayMap();
 
 // exploringArrayFilter();
-exploringArrayReduce();
+// exploringArrayReduce();
+exploringArraySome();
